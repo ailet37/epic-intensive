@@ -1,0 +1,104 @@
+.plans {
+	padding-bottom: 70px;
+
+	&__bg {
+		background-color: #efefef;
+	}
+
+	&__plan {
+		padding: 30px 55px;
+		
+
+		&:last-child {
+			text-align: right;
+		}
+	}
+
+	&__header {
+		font-weight: bold;
+		font-size: 24px;
+		margin-bottom: 70px;
+	}
+
+	&__plan--blue {
+		text-align: center;
+		background-color: @viking;
+
+		&:before {
+			content: "";
+			display: block;
+			background-color: @viking;
+			height: 20px;
+			width: 100%;
+			position: absolute;
+			top: -20px;
+			left: 0;
+		}
+
+		&:after {
+			content: "";
+			display: block;
+			background-color: @viking;
+			height: 20px;
+			width: 100%;
+			position: absolute;
+			bottom: -20px;
+			left: 0;
+		}
+	}
+	
+	&__title {
+		font-size: 18px;
+		color: #000;
+		margin-bottom: 20px;
+	}
+
+	&__title--tiny {
+		color: @scorpion;
+	}
+
+	&__description {
+		font-size: 14px;
+		color: @scorpion;
+		line-height: 16px;
+	}
+
+	&__price {
+		font-size: 14px;
+		font-weight: bold;
+		color: @scorpion;
+		margin-bottom: 15px;
+
+		strong {
+			font-size: 72px;
+			color: @viking;
+			display: block;
+		}
+	}
+	
+	&__price--blue {
+		color: #fff;
+
+		strong {
+			color: #fff;
+		}
+	}
+
+	&__button {
+		padding: 10px 25px;
+		color: #fff;
+		background-color: @viking;
+		font-size: 16px;
+		display: inline-block;
+	}
+	
+	&__button--blue {
+		background-color: #fff;
+		color: @viking;
+	}
+
+}
+
+@media (min-width: @screen-sm ) and (max-width: @screen-sm-max) {
+	@import "plans-tablet.less";
+}

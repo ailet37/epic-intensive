@@ -1,0 +1,42 @@
+.main-footer {
+	padding: 25px 0;
+}
+
+.logo {
+
+	&__link {
+		display: inline-block;
+		
+	}
+
+	&__img {
+		
+		margin-right: 20px;
+	}
+
+	&__text {
+		text-align: left;
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+	&__title {
+		font-size: 24px;
+		font-weight: bold;
+		
+
+	}
+	&__slogan {
+		display: block;
+		font-size: 14px;
+	}
+}
+
+@media (min-width: @screen-sm ) and (max-width: @screen-sm-max) {
+	@import "footer-tablet.less";
+}
+
+
+@media (max-width: @screen-xs-max) {
+	@import "footer-phone.less";
+}

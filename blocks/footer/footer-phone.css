@@ -1,0 +1,9 @@
+.main-footer {
+  text-align: center;
+}
+.main-footer .logo {
+  display: block;
+}
+.main-footer .main-nav {
+  display: none;
+}

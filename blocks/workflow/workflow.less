@@ -1,0 +1,34 @@
+.workflow {
+	background-color: @concrete;
+	padding-top: 40px;
+
+	&__header {
+		font-weight: bold;
+		font-size: 24px;
+		padding-bottom: 50px;
+	}
+
+	&__list {
+		
+		list-style-type: none;
+		font-size: 23px;
+		line-height: 48px;	
+	}
+}
+
+.workflow__list--left {
+	text-align: left;
+}
+
+.workflow__list--right {
+	text-align: right;
+}
+
+@media (min-width: @screen-sm ) and (max-width: @screen-sm-max) {
+	@import "workflow-tablet.less";
+}
+
+
+@media (max-width: @screen-xs-max) {
+	@import "workflow-phone.less";
+}

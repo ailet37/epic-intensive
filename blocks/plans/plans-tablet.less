@@ -1,0 +1,102 @@
+.plans {
+
+	padding: 60px 0;
+
+	&__bg {
+		background-color: #fff;
+	}
+	&__plan {
+		padding: 20px;
+		background-color: #62C0E3;
+		margin-bottom: 10px;	
+
+		&:last-child {
+			text-align: left;
+		}
+
+	}
+
+	&__header {
+		display: none;
+	}
+
+	&__plan--blue {
+		text-align: left;
+
+		&:before {
+			content: "";
+			display: block;
+			background-color: #fff;
+			height: 10px;
+			width: 100%;
+			position: absolute;
+			top:-10px;
+			left: 0;
+			
+			
+		}
+
+		&:after {
+			content: "";
+			display: block;
+			background-color: #fff;
+			height: 10px;
+			width: 100%;
+			position: absolute;
+			bottom:-10px;
+			left: 0;
+			
+		}
+	}
+	
+	&__title {
+		display: inline-block;
+		font-size: 24px;
+		color: #000;
+		margin-bottom: 0;
+	}
+
+	&__title--tiny {
+		font-size: 24px;
+		color: #000;
+	}
+
+	&__description {
+		display: none;
+		font-size: 14px;
+		color: #565656;
+		line-height: 16px;
+	}
+
+	&__price {
+		display: inline-block;
+		margin-bottom: 0;
+		font-size: 24px;
+		font-weight: bold;
+		color: #fff;
+
+			strong {
+				display: inline-block;
+				font-size: 24px;
+			font-weight: bold;
+			color: #fff;
+			}
+
+	}
+	
+
+	&__button {
+		display: none;
+		padding: 10px 25px;
+		color: #fff;
+		background-color: @viking;
+		font-size: 16px;
+		
+	}
+	
+	&__button--blue {
+		background-color: #fff;
+		color: @viking;
+	}
+
+}
