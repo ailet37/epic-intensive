@@ -2062,7 +2062,7 @@ select[multiple].input-lg {
 .main-header {
   padding: 25px 0;
 }
-@media (768px) {
+@media (min-width: 768px) {
   .main-header .main-nav {
     display: block !important;
   }
@@ -2286,7 +2286,7 @@ select[multiple].input-lg {
     padding: 30px 25px;
   }
 }
-@media (min-width: 768px) and (max-width: 992px) {
+@media (min-width: 768px) and (max-width: 991px) {
   .promo {
     position: relative;
   }
@@ -2316,7 +2316,7 @@ select[multiple].input-lg {
     margin: 0;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .promo {
     position: relative;
   }
@@ -2359,7 +2359,7 @@ select[multiple].input-lg {
 .workflow__list--left {
   text-align: left;
 }
-.workflow__list--right {
+.workflow__list--left {
   text-align: right;
 }
 @media (min-width: 768px) and (max-width: 991px) {
