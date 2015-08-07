@@ -2670,16 +2670,9 @@ select[multiple].input-lg {
   font-weight: bold;
   margin-bottom: 30px;
 }
-.form__group .col-xs-12,
-.form__group .col-sm-6,
-.form__group .col-md-4 {
-  padding-left: 0;
-  padding-right: 0;
-}
 .form__label {
   display: block;
   font-weight: normal;
-  font-size: 14px;
   line-height: 16px;
   color: #565656;
   margin-bottom: 15px;
@@ -2718,12 +2711,9 @@ select[multiple].input-lg {
     margin-bottom: 30px;
   }
   .form__header {
-    font-size: 36px;
+    font-size: 36.4px;
     font-weight: bold;
     margin-bottom: 40px;
-  }
-  .form__group {
-    background-color: #fff;
   }
   .form__field {
     margin-bottom: 25px;
@@ -2740,10 +2730,6 @@ select[multiple].input-lg {
   .form {
     background-color: #efefef;
     padding: 50px 0;
-  }
-  .form__group {
-    padding: 0 95px;
-    background-color: #efefef;
   }
   .form__header {
     padding-left: 78px;
