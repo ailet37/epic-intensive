@@ -188,7 +188,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
   color: #333333;
@@ -2654,7 +2654,7 @@ select[multiple].input-lg {
 }
 .download__header {
   color: #565656;
-  font-style: 24px;
+  font-size: 24px;
   margin-bottom: 30px;
 }
 .download__image {
@@ -2799,7 +2799,8 @@ select[multiple].input-lg {
   }
 }
 body {
-  font-family: "Arial", sans-serif;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
 }
 a {
   color: #000;
