@@ -2532,12 +2532,10 @@ select[multiple].input-lg {
   color: #565656;
 }
 .plans__description {
-  font-size: 14px;
   color: #565656;
   line-height: 16px;
 }
 .plans__price {
-  font-size: 14px;
   font-weight: bold;
   color: #565656;
   margin-bottom: 15px;
@@ -2573,7 +2571,7 @@ select[multiple].input-lg {
   }
   .plans__plan {
     padding: 20px;
-    background-color: #62C0E3;
+    background-color: #62c0e3;
     margin-bottom: 10px;
   }
   .plans__plan:last-child {
@@ -2617,7 +2615,6 @@ select[multiple].input-lg {
   }
   .plans__description {
     display: none;
-    font-size: 14px;
     color: #565656;
     line-height: 16px;
   }
