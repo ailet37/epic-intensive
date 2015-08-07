@@ -2,7 +2,7 @@
 	padding-bottom: 70px;
 
 	&__bg {
-		background-color: #efefef;
+		background-color: @gallery;
 	}
 
 	&__plan {
@@ -16,7 +16,7 @@
 
 	&__header {
 		font-weight: bold;
-		font-size: 24px;
+		font-size: @font-size-lg;
 		margin-bottom: 70px;
 	}
 
@@ -48,7 +48,7 @@
 	}
 	
 	&__title {
-		font-size: 18px;
+		font-size: @font-size-base + 4;
 		color: #000;
 		margin-bottom: 20px;
 	}
@@ -58,19 +58,17 @@
 	}
 
 	&__description {
-		font-size: 14px;
 		color: @scorpion;
 		line-height: 16px;
 	}
 
 	&__price {
-		font-size: 14px;
 		font-weight: bold;
 		color: @scorpion;
 		margin-bottom: 15px;
 
 		strong {
-			font-size: 72px;
+			font-size: @font-size-lg * 3;
 			color: @viking;
 			display: block;
 		}
@@ -88,7 +86,7 @@
 		padding: 10px 25px;
 		color: #fff;
 		background-color: @viking;
-		font-size: 16px;
+		font-size: @font-size-base + 2;
 		display: inline-block;
 	}
 	

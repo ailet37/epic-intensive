@@ -7,13 +7,12 @@
 	}
 	&__plan {
 		padding: 20px;
-		background-color: #62C0E3;
+		background-color: @viking;
 		margin-bottom: 10px;	
 
 		&:last-child {
 			text-align: left;
 		}
-
 	}
 
 	&__header {
@@ -31,9 +30,7 @@
 			width: 100%;
 			position: absolute;
 			top:-10px;
-			left: 0;
-			
-			
+			left: 0;	
 		}
 
 		&:after {
@@ -44,59 +41,53 @@
 			width: 100%;
 			position: absolute;
 			bottom:-10px;
-			left: 0;
-			
+			left: 0;	
 		}
 	}
 	
 	&__title {
 		display: inline-block;
-		font-size: 24px;
+		font-size: @font-size-lg;
 		color: #000;
 		margin-bottom: 0;
 	}
 
 	&__title--tiny {
-		font-size: 24px;
+		font-size: @font-size-lg;
 		color: #000;
 	}
 
 	&__description {
 		display: none;
-		font-size: 14px;
-		color: #565656;
+		color: @scorpion;
 		line-height: 16px;
 	}
 
 	&__price {
 		display: inline-block;
 		margin-bottom: 0;
-		font-size: 24px;
+		font-size: @font-size-lg;
 		font-weight: bold;
 		color: #fff;
 
-			strong {
-				display: inline-block;
-				font-size: 24px;
+		strong {
+			display: inline-block;
+			font-size: @font-size-lg;
 			font-weight: bold;
 			color: #fff;
-			}
-
+		}
 	}
 	
-
 	&__button {
 		display: none;
 		padding: 10px 25px;
 		color: #fff;
 		background-color: @viking;
-		font-size: 16px;
-		
+		font-size: @font-size-base + 2;	
 	}
 	
 	&__button--blue {
 		background-color: #fff;
 		color: @viking;
 	}
-
 }
