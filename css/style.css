@@ -2062,7 +2062,7 @@ select[multiple].input-lg {
 .main-header {
   padding: 25px 0;
 }
-@media (min-width: 768px) {
+@media (768px) {
   .main-header .main-nav {
     display: block !important;
   }
@@ -2084,7 +2084,6 @@ select[multiple].input-lg {
 }
 .logo__slogan {
   display: block;
-  font-size: 14px;
 }
 .toggler {
   margin-top: 18px;
