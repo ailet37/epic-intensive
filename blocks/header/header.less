@@ -1,8 +1,8 @@
-
+  
 .main-header {
 	padding: 25px 0;
 
-	@media (min-width: 768px) {
+	@media (@screen-sm-min) {
 		.main-nav {
 			display: block !important;
 		}
@@ -12,12 +12,10 @@
 .logo {
 
 	&__link {
-		display: inline-block;
-		
+		display: inline-block;	
 	}
 
 	&__img {
-		
 		margin-right: 20px;
 	}
 
@@ -28,19 +26,18 @@
 	}
 
 	&__title {
-		font-size: 24px;
+		font-size: @font-size-lg;
 		font-weight: bold;
 		
 
 	}
 	&__slogan {
 		display: block;
-		font-size: 14px;
 	}
 }
 
 .toggler {
-	margin-top: 18px;
+  margin-top: 18px;
   display: flex;
   align-items: center;
   width: 2.5em;
@@ -79,8 +76,6 @@
       top: -1rem;
     }
   }
-  
-
 }
 .main-nav {
 
@@ -101,11 +96,11 @@
 		
 			a {
 				font-weight: bold;
-				font-size: 16px;
+				font-size: @font-size-base + 2;
 				line-height: 48px;
 
 				&:hover {
-				opacity: .8;
+					opacity: .8;
 				}
 			}
 		}
@@ -113,13 +108,13 @@
 }
 
 .main-nav__link--bg-blue {
-					background-color: @cyan;
-					padding: 15px 20px;
-					color: #fff;
-					border-radius: 10px;
+	background-color: @cyan;
+	padding: 15px 20px;
+	color: #fff;
+	border-radius: 10px;					
+}
 
-					
-				}
+
 @media (min-width: @screen-sm ) and (max-width: @screen-sm-max) {
 	@import "header-tablet.less";
 }
