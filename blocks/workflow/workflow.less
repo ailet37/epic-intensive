@@ -4,25 +4,24 @@
 
 	&__header {
 		font-weight: bold;
-		font-size: 24px;
+		font-size: @font-size-lg;
 		padding-bottom: 50px;
 	}
 
 	&__list {
-		
 		list-style-type: none;
-		font-size: 23px;
+		font-size: @font-size-lg - 1;
 		line-height: 48px;	
+	}
+
+	&__list--left {
+		text-align: left;
+	}
+	&__list--left {
+		text-align: right;
 	}
 }
 
-.workflow__list--left {
-	text-align: left;
-}
-
-.workflow__list--right {
-	text-align: right;
-}
 
 @media (min-width: @screen-sm ) and (max-width: @screen-sm-max) {
 	@import "workflow-tablet.less";
